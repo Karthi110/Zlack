@@ -10,10 +10,14 @@ const Toolbar = () => {
   const { data } = useGetWorkspace({ id: workspaceId });
 
   return (
-    <nav className="bg-primary/85 flex items-center justify-between h-10 p-1.5">
+    <nav className="bg-primary flex items-center justify-between h-12 p-1">
       <div className="flex-1" />
       <div className="min-w-[280px] max-[642px] grow-[2] shrink">
-        <Button size="sm" className=" w-full justify-start h-7 px-2">
+        <Button
+          variant="secondary"
+          className=" w-full justify-start px-2"
+          size="sm"
+        >
           <Search className="size-4  mr-2" />
           <span className="text-xs">Search {data?.name}</span>
         </Button>
