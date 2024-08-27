@@ -3,6 +3,8 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { ConvexClientProvider } from "@/components/convex-provider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
+import Modals from "@/components/modals";
+import { Toaster } from "@/components/ui/sonner";
 const font = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,7 +21,11 @@ export default function RootLayout({
     <ConvexAuthNextjsServerProvider>
       <html lang="en">
         <body className={font.className}>
-          <ConvexClientProvider>{children}</ConvexClientProvider>
+          <ConvexClientProvider>
+            <Toaster position="top-right" />
+            <Modals />
+            {children}
+          </ConvexClientProvider>
         </body>
       </html>
     </ConvexAuthNextjsServerProvider>
