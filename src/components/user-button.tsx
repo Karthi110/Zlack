@@ -32,9 +32,9 @@ const UserButton = () => {
   return (
     <DropdownMenu modal={false}>
       <DropdownMenuTrigger className="outline-none relative" asChild>
-        <Avatar className="size-8 hover:opacity-75 transition">
-          <AvatarImage src={image} alt={name} />
-          <AvatarFallback className="bg-primary/80 text-secondary">
+        <Avatar className="size-8 hover:opacity-75 transition rounded-md">
+          <AvatarImage src={image} alt={name} className="rounded-md" />
+          <AvatarFallback className="bg-primary/80 text-secondary rounded-md">
             {avatarFallback}
           </AvatarFallback>
         </Avatar>

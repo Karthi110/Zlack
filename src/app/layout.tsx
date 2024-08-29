@@ -24,7 +24,7 @@ export default function RootLayout({
         <body className={font.className}>
           <ConvexClientProvider>
             <JotaiProvider>
-              <Toaster position="top-right" />
+              <Toaster position="top-right" richColors />
               <Modals />
               {children}
             </JotaiProvider>
