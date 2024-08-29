@@ -5,6 +5,7 @@ import { ConvexClientProvider } from "@/components/convex-provider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
 import Modals from "@/components/modals";
 import { Toaster } from "@/components/ui/sonner";
+import JotaiProvider from "@/components/jotai-provider";
 const font = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -22,9 +23,11 @@ export default function RootLayout({
       <html lang="en">
         <body className={font.className}>
           <ConvexClientProvider>
-            <Toaster position="top-right" />
-            <Modals />
-            {children}
+            <JotaiProvider>
+              <Toaster position="top-right" />
+              <Modals />
+              {children}
+            </JotaiProvider>
           </ConvexClientProvider>
         </body>
       </html>

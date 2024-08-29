@@ -22,7 +22,7 @@ const WorkspaceLayout = ({ children }: { children: ReactNode }) => {
           <ResizablePanel
             defaultSize={20}
             minSize={11}
-            className="bg-primary/90"
+            className="bg-primary/80"
           >
             <WorkspaceSidebar />
           </ResizablePanel>
