@@ -250,7 +250,6 @@ const Editor = ({
           )}
           {variant === "create" && (
             <Button
-              className="ml-auto"
               size="icon"
               disabled={disabled || isEmpty}
               onClick={() =>
@@ -259,6 +258,10 @@ const Editor = ({
                   image,
                 })
               }
+              className={cn(
+                "ml-auto ",
+                !isEmpty && "bg-emerald-500  hover:bg-emerald-500/80"
+              )}
               variant={isEmpty ? "ghost" : "default"}
             >
               <MdSend className="size-5" />
