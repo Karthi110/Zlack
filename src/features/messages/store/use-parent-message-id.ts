@@ -1,5 +1,5 @@
 import { useQueryState } from "nuqs";
 
-export const useParentMessageId = () => {
-  return useQueryState("parentMessageId");
+export const useProfileMemberId = () => {
+  return useQueryState("profileMemberId");
 };
