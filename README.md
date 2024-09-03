@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Zlack 
+### A slack clone
 
-## Getting Started
+## Dashboard to create workspace
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/0f9ece53-36e1-4ea2-9608-6797fa318bc7">
 
-First, run the development server:
+## Chat with people with channels
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/7988d6f0-f18b-407a-b10e-058bdbb581d1">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Edit workspace
+<img width="170" alt="image" src="https://github.com/user-attachments/assets/f9f7f9f8-dd0c-4af6-856a-d0494bdacab6">
+<img width="313" alt="image" src="https://github.com/user-attachments/assets/cdbea6c9-dd41-43fa-b520-f9c1b9712e85">
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## invite people to your channel
+<img width="909" alt="image" src="https://github.com/user-attachments/assets/f5b058e2-8c12-4285-9fd7-c3af6ee019c7">
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Chat with your friends
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/c92ecb29-2779-4134-91e8-26ff168d87b8">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Reply to message in thread
+<img width="819" alt="image" src="https://github.com/user-attachments/assets/2af862ed-c28e-457a-a349-9f44a258394c">
 
-## Learn More
+## React to messages
+<img width="474" alt="image" src="https://github.com/user-attachments/assets/479494ec-5909-4674-9dac-f5989e07f277">
 
-To learn more about Next.js, take a look at the following resources:
+## Custom Authentication using next-auth 
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/890a9d80-e0c4-4a05-9809-700c3adc4212">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/fa055b39-9e24-4aab-8f0a-06c732fc8ade">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## To run the project
+> 1. Clone the repo <br>
+> 2. Run `npm i` <br>
+> 3. Get Nessary keys from the .env.example file <br>
+> 4. `npm run dev` <br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## This is a learning project**
+### The components you see are from <a href='https://ui.shadcn.com/'>shadcnui<a> library 
